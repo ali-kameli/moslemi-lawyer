@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./Components/Footer/Footer";
+import Body from "./Components/Landing/Body/Body";
+import Landing from "./Components/Landing/Landing";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+      <Landing />
+      <Body />
+      <Footer />
+      <div className="call-to-vakil">
+        <a href="tel:+989124082208">
+          <p> تماس با وکیل</p>
         </a>
-      </header>
+      </div>
+      <div className="chat-to-vakil">
+        <a href="tel:+989124082208">
+          <p> چـــت با وکیــل</p>
+        </a>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

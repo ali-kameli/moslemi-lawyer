@@ -1,0 +1,150 @@
+.lnading-page {
+  background-size: cover;
+  height: fit-content;
+  /* min-height: 45rem; */
+  /* min-height: 100vh; */
+  /* background-repeat: no-repeat; */
+  position: absolute;
+  /* background-image: url(../../assets/01-Recovered.jpg); */
+  width: 100%;
+}
+.lnading-page img {
+  width: 100%;
+}
+/* @media (min-width: 1621px) {
+  .text-landing {
+    background: rgba(0, 0, 9, 0.3);
+    color: #ffffff;
+    margin-top: 39rem !important;
+  }
+} */
+@media (max-width: 1226px) {
+  .text-landing {
+    margin-top: 30% !important;
+  }
+}
+@media (max-width: 600px) {
+  .text-landing {
+    margin-top: 22% !important;
+    height: 7rem !important;
+  }
+}
+@media (max-width: 1208px) {
+  .text-landing {
+    height: 15rem !important;
+  }
+  .text-landing h5 {
+    font-size: 150% !important;
+  }
+}
+@media (max-width: 900px) {
+  .text-landing h5 {
+    font-size: 75% !important;
+    height: 5rem !important;
+    overflow: scroll;
+  }
+}
+@media (max-width: 700px) {
+  .logo-brand {
+    height: 2rem !important;
+  }
+}
+@media (max-width: 360px) {
+  .text-landing h5 {
+    font-size: 50% !important;
+    height: 3rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .farzam-picture h1 {
+    font-size: 2rem !important;
+  }
+  .farzam-picture h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-page2 {
+    margin-top: 8rem !important ;
+  }
+  .farzam-picture img {
+    width: 75% !important;
+  }
+  .farzam-picture h1 {
+    font-size: 3rem !important;
+  }
+  .farzam-picture h3 {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 532px) {
+  .farzam-picture h1 {
+    font-size: 2.6rem !important;
+  }
+  .farzam-picture h3 {
+    font-size: 1.5rem !important;
+  }
+}
+@media (max-width: 420px) {
+  .farzam-picture h1 {
+    font-size: 1.5rem !important;
+  }
+  .farzam-picture h3 {
+    font-size: 1rem !important;
+  }
+  .container-page2 {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 1046px) {
+  .text-landing {
+    height: 9rem !important;
+  }
+}
+.farzam-picture {
+  text-align: center;
+}
+.farzam-picture img {
+  border-radius: 1rem;
+}
+.farzam-picture h1 {
+  font-weight: bolder;
+  font-size: 2.8rem;
+  font-family: "font-awesome";
+}
+.farzam-picture h3 {
+  font-weight: lighter;
+  font-family: "font-awesome";
+}
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* top: 0; */
+  text-align: right;
+  /* padding: 0; */
+}
+.logo-brand {
+  height: 4rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.text-landing {
+  border-radius: 1rem;
+  text-align: justify;
+  text-align-last: right;
+  margin-top: 32%;
+  height: 15rem;
+  padding: 2rem;
+  line-height: 25px;
+  /* height: fit-content; */
+  /* font-weight: bolder; */
+  overflow: auto;
+}
+.text-landing h5 {
+  font-size: 200%;
+}
+.row-text-landing {
+  place-content: center;
+}
